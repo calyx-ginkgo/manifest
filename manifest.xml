@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="calyx-ginkgo"
+           fetch="https://github.com/calyx-ginkgo"
+           revision="refs/heads/android14" />
+  
+  <project path="device/xiaomi/ginkgo" remote="calyx-ginkgo" name="device_xiaomi_ginkgo" />
+  <project path="vendor/xiaomi/ginkgo" remote="calyx-ginkgo" name="vendor_xiaomi_ginkgo" />
+  <project path="kernel/xiaomi/ginkgo" remote="calyx-ginkgo" name="kernel_xiaomi_ginkgo" />
+</manifest>
